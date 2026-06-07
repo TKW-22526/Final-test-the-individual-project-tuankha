@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Chill Coffe - Liên hệ</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container">
+			<h1>Chill Coffe</h1>
+			<nav>
+				<a href="../index.html">Trang chủ</a>
+				<a href="gioi-thieu.html">Giới thiệu</a>
+				<a href="san-pham.html">Sản phẩm</a>
+				<a href="lien-he.html" class="active">Liên hệ</a>
+			</nav>
+		</div>
+	</header>
+
+	<main class="container">
+		<h2>Liên hệ</h2>
+		<p>Để đặt hàng hoặc góp ý, vui lòng điền form bên dưới hoặc gọi đến số <strong>0866 889 630</strong>.</p>
+
+		<form id="contact-form" class="contact-form">
+			<label>Họ và tên
+				<input type="text" name="name" required>
+			</label>
+			<label>Email
+				<input type="email" name="email" required>
+			</label>
+			<label>Số điện thoại
+				<input type="tel" name="phone">
+			</label>
+			<label>Tin nhắn
+				<textarea name="message" rows="4" required></textarea>
+			</label>
+			<button type="submit" class="btn">Gửi liên hệ</button>
+			<p id="contact-result" class="muted"></p>
+		</form>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">© 2026 Chill Coffe</div>
+	</footer>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
+
