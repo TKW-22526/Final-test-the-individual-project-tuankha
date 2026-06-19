@@ -1,4 +1,4 @@
-// Chill Coffe - product data and client behaviors
+// Chill Coffee - product data and client behaviors
 (function(){
 	const products = [
 		{id:1,name:'Espresso',price:25000,short:'Đậm đà, nguyên bản',desc:'Cà phê espresso đậm vị, pha theo tiêu chuẩn barista.', image:'assets/espresso.jpg'},
