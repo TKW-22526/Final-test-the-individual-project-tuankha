@@ -1,7 +1,7 @@
 // Chill Coffee - product data and client behaviors
 (function(){
 	const products = [
-		{id:1,name:'Espresso',price:25000,short:'Đậm đà, nguyên bản',desc:'Cà phê espresso đậm vị, pha theo tiêu chuẩn barista.', image:'assets/espresso.jpg'},
+		{id:1,name:'Espresso',price:25000,short:'Đậm đà, nguyên bản',desc:'Cà phê espresso đậm vị, pha theo tiêu chuẩn barista.', image:'assets/Espresso.jpg'},
 		{id:2,name:'Americano',price:30000,short:'Đậm nhẹ, pha nóng',desc:'Espresso pha loãng với nước nóng, phù hợp mọi lúc.', image:'assets/Americano.jpg'},
 		{id:3,name:'Latte',price:45000,short:'Sữa mịn, mềm',desc:'Cà phê với sữa tươi đánh bọt mịn, hương vị cân bằng.', image:'assets/Latte.jpg'},
 		{id:4,name:'Cappuccino',price:45000,short:'Bọt sữa dày',desc:'Tầng bọt sữa dày cùng espresso hòa quyện.', image:'assets/Cappuccino.jpg'},
